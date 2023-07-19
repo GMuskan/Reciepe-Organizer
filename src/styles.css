@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal-wrapper {
+  background: #342e2ebf;
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  z-index: 8888;
+}
+
+.modal {
+  padding: 1rem 2rem;
+  background-color: white;
+  max-width: fit-content;
+  position: relative;
+  margin: auto;
+  top: 15rem;
+  text-align: left;
+}
+
+.modal input {
+  margin: 0.5rem;
+}
+.modal button {
+  margin: 0.5rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
